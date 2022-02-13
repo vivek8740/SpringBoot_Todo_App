@@ -6,18 +6,25 @@
 
 package com.springdemo.service;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
 
+import org.springframework.beans.propertyeditors.CustomDateEditor;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.WebDataBinder;
+import org.springframework.web.bind.annotation.InitBinder;
+
 import com.springdemo.model.Todo;
 
 @Service
 public class TodoService {
+
 	private static List<Todo> todos = new ArrayList<Todo>();
 	private static int todoCount = 3;
+
 
 	static {
 		todos.add(new Todo(1, "Oracle", "Learn Spring MVC", new Date(), false));
