@@ -1,13 +1,13 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <html>
 <head>
-<title>Todo</title>
+<title>Update Todo</title>
 <link href="webjars/bootstrap/3.3.6/css/bootstrap.min.css"
 	rel="stylesheet">
 </head>
 <body>
 	<div class="container">
-		<h1>Your Todos</h1>
+		<h1>Update Todos</h1>
 		<table class="table table-striped">
 			<thead>
 				<tr>
