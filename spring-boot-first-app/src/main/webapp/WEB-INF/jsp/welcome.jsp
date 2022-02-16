@@ -1,11 +1,7 @@
-<html>
-<head>
-<title>Welcome</title>
-</head>
-<body>
+<%@ include file="common/header.jspf" %>
+<%@ include file="common/navigation.jspf" %>
 Welcome ${name} !!!!
 
 <a href="/list-todos">here</a> To go to todo's page.
 
-</body>
-</html>
+<%@ include file="common/footer.jspf" %>

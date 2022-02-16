@@ -1,11 +1,5 @@
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<html>
-<head>
-<title>Update Todo</title>
-<link href="webjars/bootstrap/3.3.6/css/bootstrap.min.css"
-	rel="stylesheet">
-</head>
-<body>
+<%@ include file="common/header.jspf" %>
+<%@ include file="common/navigation.jspf" %>
 	<div class="container">
 		<h1>Update Todos</h1>
 		<table class="table table-striped">
@@ -34,8 +28,4 @@
 			<a class="link" href="/add-todos">Add New Todo</a>
 		</div>
 
-		<script src="webjars/jquery/1.9.1/jquery.min.js"></script>
-		<script src="webjars/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-	</div>
-</body>
-</html>
+<%@ include file="common/footer.jspf" %>
